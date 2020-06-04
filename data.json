@@ -1,0 +1,44 @@
+{
+    "class": "all the information stored",
+    "date": "May 18 2020",
+    "Brands": [
+      {
+        "brand": "Acqua di Parma",
+  
+        "market": ["Europe", "France", "Italy", "Travel Retail Europe", "UK"]
+      },
+      {
+        "brand": "Chaling",
+        "market": ["France"]
+      },
+      {
+        "brand": "Dior",
+        "market": [
+          "BeNeLux",
+          "Denmark",
+          "EPCD",
+          "France",
+          "Other Nordics",
+          "Germany",
+          "Italy",
+          "Spain",
+          "Switzerland",
+          "Russia",
+          "UK"
+        ]
+      },
+      {
+        "brand": "Givenchy",
+        "market": ["UK"]
+      },
+      {
+        "brand": "Guerlain",
+        "market": ["Europe"]
+      },
+      {
+        "brand": "Loewe",
+        "market": ["Spain"]
+      }
+    ]
+  }
+  
