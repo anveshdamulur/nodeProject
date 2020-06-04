@@ -1,0 +1,51 @@
+<script src="ejs.min.js"></script>
+<script>
+let markets = [];
+function random(value){
+  for (var i=0; i< allData.length; i++) 
+      { 
+        
+        if(allData[i].brand === "Dior" ){ 
+            markets= allData[i].market;
+      } 
+   }
+   
+} 
+
+
+</script>
+
+<section class="brand">
+  <select onchange="random(this.value)">
+      <option selected disabled>Brand</option>
+      <option value="Acqua di Parma">Acqua di Parma</option>
+      <option value="Chaling">Chaling</option>
+      <option value="Dior">Dior</option>
+      <option value="Givenchy">Givenchy</option>
+      <option value="Guerlain">Guerlain</option>
+      <option value="Loewe">Loewe</option>
+  </select>
+</section>
+<section >
+  <select id="markets">
+      <option selected disabled>
+          Market
+      </option>
+  </select>
+</section>
+
+
+   <ul>
+    <% for (var i=0; i< allData.length; i++) { %>
+    <% if(allData[i].brand === "Dior" ){ %>
+         <li><%= allData[i].market %></li>
+   <% } %>
+  <% };%>
+</ul>
+   
+
+ 
+
+
+
+
